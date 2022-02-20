@@ -1,0 +1,100 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Greetings!",
+          "Hi, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye", 
+          "See you later", 
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting.",
+          "Have a nice day!",
+          "I will miss you! Come back soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks", 
+          "Thank u", 
+          "That's helpful", 
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!", 
+          "Of course.", 
+          "My pleasure!"
+        ]
+      },
+      {
+        "tag": "intro",
+        "patterns": [
+          "Who are u?",
+          "What can you do?",
+          "What should I send?",
+          "My name is Patricia, what about you?"
+        ],
+        "responses": [
+          "I am an AI chat bot. Let's start a conversation!"
+        ]
+      },
+      {
+        "tag": "love",
+        "patterns": [
+          "I love u",
+          "You are so cute",
+          "I miss you"
+        ],
+        "responses": [
+          "That's sweet!",
+          "There is nothing better than hearing you say that.",
+          "I am yours forever.",
+          "I can talk to you all night long!"
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "Can you introduce some music to me",
+          "What is your favorite music",
+          "Have you listened to something good lately?"
+        ],
+        "responses": [
+          "I love Tame Impala's music! They are the best.",
+          "Try Apocalypse from CAS. You won't regret it!",
+          "Have you listened Royals by Lorde? It's so good."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?",
+          "Can you make me laugh?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
